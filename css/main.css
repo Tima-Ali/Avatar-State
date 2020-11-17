@@ -1,0 +1,265 @@
+.banner-area{
+    background-image: url(https://wallpapermemory.com/uploads/556/avatar-the-last-airbender-background-1080p-226743.jpg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    padding: 15px 60px;
+}
+.menu{
+    width: 42%;
+    float: right;
+    list-style: none;
+}
+.menu li{
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    float: left;
+}
+
+.menu li:hover{
+    background: yellow;
+
+}
+
+.menu li:hover a {
+    color: #000;
+}
+
+.menu li a{
+   text-decoration: none;
+   font-family: 'Roboto', sans-serif;
+   color: #fff;
+   text-transform: uppercase;
+} 
+
+.banner-area img{
+    float: left;
+    width: 69.4px;
+    height: 92.5px;
+}
+
+.banner-text{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-align: center;
+}
+
+.banner-text h2{
+    font-family: 'Herculanum', sans-serif;
+    font-size: 55px;
+    color: yellow;
+    margin: 0;
+}
+
+.banner-text p{
+    font-size: 22px;
+    font-family: 'Herculanum';
+    margin: 10px;    
+}
+
+.banner-text a{
+    text-decoration: none;
+    border: 1px ssolid #fff;
+    font-size: 17px;
+    padding: 10px 35px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 5%;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.banner-text a:hover{
+    border-color: yellow;
+    background: yellow;
+    transition: .9s;
+    color: #262626;
+}
+
+.slicknav_menu{
+    display: none;
+}
+
+
+/*responsive css*/
+
+@media all and (max-width: 768px){
+    .slicknav_menu{
+        display: block;
+        width: 40;
+        float: right;
+        background: transparent;
+    }
+    .slicknav_menu li{
+        text-align: right;
+        text-transform: uppercase;
+    }
+    
+    .slicknav_nav a{
+        margin: 2px 5px;
+        font-family: 'Roboto', sans-serif;
+    
+    }
+    
+    .slicknav_menu li:hover a{
+        color: #000;
+    }
+    
+    .slicknav_nav a:hover{
+        background: transparent;
+        color: #fff;
+    }
+    
+    .menu{
+        display: none;
+    }
+    
+    .slicknav_btn{
+        margin: 10px 5px 6px;
+        text-decoration: none;
+        border-radius: 5px;
+        background-color: yellow;
+    }
+    
+    .slicknav_menu .slicknav_menutxt{
+        color: #000;
+        text-shadow: orange;
+    }
+    
+    .slicknav_menu .slicknav_icon-bar{
+        background-color: #262626;
+        box-shadow: none;
+    }
+    
+    .banner-text{
+        top: 55%;
+    }
+    
+    header{
+        padding: 5px 10px;
+    }
+    
+    .banner-text h2{ 
+        font-size: 21px;
+    }
+    
+    .banner-text p{
+        font-size: 15px;
+    }
+    
+    .banner-area a{
+        font-size: 11px;
+        padding: 10px 5px;
+    }
+    
+    .logo{
+        font-size: 70px;
+    }
+    li:hover{
+        background: yellow;
+    }
+    
+    .slicknav_nav li:hover a{
+        color: #000;
+    } 
+}
+
+/*button*/
+.button {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-align: center;
+}
+
+.btn{
+    text-decoration: none;
+    border: 1px ssolid #fff;
+    font-size: 17px;
+    padding: 10px 35px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 5%;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    background: none;
+    border-color: transparent;
+}
+
+.btn:hover{
+    border-color: yellow;
+    background: yellow;
+    transition: .7s;
+    color: #262626;
+}
+
+/*Modal*/
+
+form{
+    margin: auto;
+    width: 500px;
+}
+form label{
+    font-family: 'Herculanum';
+    font-size: 12px;
+}
+h5{
+    font-family: 'Herculanum';
+}
+.modal-header{
+    background: yellow;
+}
+.modal-footer{
+    background: gray;
+}
+
+.footer{
+    text-align: left;
+    font-size: 10px;
+    color: black;
+    background: #3f3f3f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

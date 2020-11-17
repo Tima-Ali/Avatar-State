@@ -1,0 +1,99 @@
+body{
+    background-image: url(https://wallpapermemory.com/uploads/556/avatar-the-last-airbender-background-1080p-226743.jpg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+header{
+    padding: 15px 60px;
+}
+
+.banner-area img{
+    float: left;
+    width: 69.4px;
+    height: 92.5px;
+}
+
+.menu{
+    width: 42%;
+    float: right;
+    list-style: none;
+}
+.menu li{
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    float: left;
+}
+
+.menu li:hover{
+    background: yellow;
+
+}
+
+.menu li:hover a {
+    color: #000;
+}
+
+.menu li a{
+   text-decoration: none;
+   font-family: 'Roboto', sans-serif;
+   color: #fff;
+   text-transform: uppercase;
+} 
+
+h1{
+    font-family: 'herculanum';
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-top: 10vh;
+    color: yellow;
+}
+
+.panel-body ul{
+    list-style-type: none;
+    text-align: left;
+}
+.panel-body li a{
+    text-decoration: none;
+    color: slategray;
+}
+
+.panel-body li{
+    margin: 1em 0;
+}
+
+.fas {
+    display: block;
+    position: relative;
+    float: right;
+    margin-right: 90px;
+}
+
+/*#2d6e74 #1b414*/
+
+.panel-title{
+    text-decoration: none;
+    border: 1px ssolid #fff;
+    font-size: 17px;
+    padding: 5px 10px;
+    color: darkgrey;
+    display: inline-block;
+    margin-top: 0%;
+    font-family: 'Roboto',sans-serif;
+}
+.panel-heading:hover{
+    background: rgb(196, 194, 194);
+}
+.panel-title:hover{
+    text-decoration: none;
+    color: white;
+}
+
+
+
