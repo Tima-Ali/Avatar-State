@@ -1,6 +1,9 @@
 @font-face {
-    font-family: Herculanum;
-    src:url(Herculanum-Regular.ttf);
+	font-family: 'Conv_Herculanum-Regular';
+	src: url('fonts/Herculanum-Regular.eot');
+	src: local('☺'), url('fonts/Herculanum-Regular.woff') format('woff'), url('fonts/Herculanum-Regular.ttf') format('truetype'), url('fonts/Herculanum-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 .banner-area{
@@ -68,8 +71,7 @@ header {
 }
 
 .banner-text h2{
-    font-family: Herculanum;
-    font-weight: bold;
+    font-family:'Conv_Herculanum-Regular',Sans-Serif;
     font-size: 55px;
     color: yellow;
     margin: 0;
@@ -77,7 +79,7 @@ header {
 
 .banner-text p{
     font-size: 22px;
-    font-family: Herculanum;
+    font-family:'Conv_Herculanum-Regular',Sans-Serif;
     margin: 10px;    
 }
 
