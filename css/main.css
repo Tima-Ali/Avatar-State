@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Herculanum;
+    src:url(Herculanum-Regular.ttf);
+}
+
 .banner-area{
     background-image: url(https://wallpapermemory.com/uploads/556/avatar-the-last-airbender-background-1080p-226743.jpg);
     background-position: center center;
@@ -14,8 +19,8 @@ header {
     padding: 15px 60px;
 }
 .menu{
-    width: 42%;
     float: right;
+    margin-top: 20px;
     list-style: none;
 }
 .menu li{
@@ -46,8 +51,10 @@ header {
 
 .banner-area img{
     float: left;
-    width: 69.4px;
-    height: 92.5px;
+    width: 90px;
+    height: auto;
+    padding: 10px;
+    padding-top: 11px;
 }
 
 .banner-text{
@@ -57,10 +64,12 @@ header {
     transform: translate(-50%,-50%);
     color: #fff;
     text-align: center;
+    font-weight: bold;
 }
 
 .banner-text h2{
-    font-family: 'Herculanum', sans-serif;
+    font-family: Herculanum;
+    font-weight: bold;
     font-size: 55px;
     color: yellow;
     margin: 0;
@@ -68,7 +77,7 @@ header {
 
 .banner-text p{
     font-size: 22px;
-    font-family: 'Herculanum';
+    font-family: Herculanum;
     margin: 10px;    
 }
 
@@ -94,6 +103,12 @@ header {
 .slicknav_menu{
     display: none;
 }
+
+/* .header-area {
+    width: 100%;
+    height: 90px;
+    background-color: black;
+} */
 
 
 /*responsive css*/
@@ -125,7 +140,7 @@ header {
         color: #fff;
     }
     
-    .menu{
+     .menu{
         display: none;
     }
     
@@ -181,10 +196,7 @@ header {
 
 /*button*/
 .button {
-    position: absolute;
-    top: 95%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    margin-bottom: 5em;
     color: #fff;
     text-align: center;
 }
@@ -231,11 +243,17 @@ h5{
 }
 
 .footer{
-    text-align: left;
+    position: absolute;
+    bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
     font-size: 10px;
-    color: black;
-    background: #3f3f3f;
+    color: rgb(194, 194, 194);
 }
+
 
 
 
