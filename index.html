@@ -8,81 +8,99 @@
     <link rel="stylesheet" href="slicknav.css">
     <link rel="stylesheet" href="./css/main.css"/>
     <!-- The HEAD is where the "thinking" information of a page lives -->
-    <!-- Its where we inject exteneral sources needed for our page to work properly -->
+    <!-- Its where we inject external sources needed for our page to work properly -->
     <!-- We can link CSS, Javascript, fonts and so much more -->
     <!-- The title is the text displayed on our browser tab -->
     <title> Avatar State </title>
   </head>
 
   <body>
-    <div class="banner-area">
-      <div class="header-area">
-        <img src="img/avatar.jpeg" alt="logo">
-        <ul class="menu">
-          <li><a href="#">Home</a></li>
-          <li><a href="pages/watch.html">Watch</a></li>
-          <li><a href="#">Play</a></li>
-          <li><a href="https://www.buzzfeed.com/daniquehulshof1/whats-your-avatar-element-a3eqms7ac4">Quiz</a></li>
-          <li><a href="#">Join</a></li>
-        </ul>
-      </div>
-      
-      <div class="banner-text">
-        <h2>Avatar State</h2>
-        <p>Your destiny awaits you</p>
-        <div class="button"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
-          Log in</button>
+    <div class="main" id="section1">
+      <div class="banner-area">
+        <div class="header-area">
+          <img src="img/avatar.jpeg" alt="logo">
+          <ul class="menu">
+            <li><a href="#section1" class="scroll">Home</a></li>
+            <li><a href="#section2" class="scroll">Watch</a></li>
+            <li><a href="#section3" class="scroll">Play</a></li>
+            <li><a href="https://www.buzzfeed.com/daniquehulshof1/whats-your-avatar-element-a3eqms7ac4">Quiz</a></li>
+            <li><a href="#">Join</a></li>
+          </ul>
         </div>
-      </div>
-
-
-
-      <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="staticBackdropLabel">Log in</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <form>
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email">
+        
+        <div class="banner-text">
+          <h2>Avatar State</h2>
+          <p>Your destiny awaits you</p>
+          <div class="button"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+            Log in</button>
+          </div>
+        </div>
   
-                <label for ="password">Password</label>
-                <input type="password" name="password" id="password">
   
-                <label for ="rememberme">Remember me </label>
-                <input type="checkbox" id="rememberme">   
-              </form>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Forgotten Password?</button>
-              <button type="button" class="btn btn-primary">Log in</button>
-
+  
+        <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Log in</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <label for="email">Email</label>
+                  <input type="email" name="email" id="email">
+    
+                  <label for ="password">Password</label>
+                  <input type="password" name="password" id="password">
+    
+                  <label for ="rememberme">Remember me </label>
+                  <input type="checkbox" id="rememberme">   
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Forgotten Password?</button>
+                <button type="button" class="btn btn-primary">Log in</button>
+  
+              </div>
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="footer">
-        <footer>
-          © Copyright 2020 by Fatima, Hitay and Maria. All rights reserved.
-        </footer>
+  
+        <div class="footer">
+          <footer>
+            © Copyright 2020 by Fatima, Hitay and Maria. All rights reserved.
+          </footer>
+        </div>
       </div>
     </div>
+    <div class="main" id="section2">
+      <svg viewBox="0 0 500 500" preserveAspectRatio="none" style="height: 100%; width:100%;">
+        <path d="M0,100 C150,200 350,0 500,100 L500,00 L0,0 Z" style="stroke: none; fill:#db1e1e"></path>
+      </svg>
+       <p class="mainW">WATCH SECTION</p>
 
+    </div>
+    <div class="main" id="section3">
+      <svg viewBox="0 0 500 500" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+        <path d="M0,100 C150,200 350,0 500,100 L500,00 L0,0 Z" style="stroke: none;fill: #3b3b3b;"></path>
+      </svg>
+      <p class="mainP">PLAY SECTION</p>
+   </div>
+
+
+    <!-- CDN'S AND SOME QUICK FUNCTIONS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">
     </script>
+    <!--<script src="js/smoothscroll.js"></script>-->
     <script src="jquery.slicknav.js"></script>
     <script>
       $('.menu').slicknav();
     </script>
-
+    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> 
   </body>
 
 </html>
